@@ -1,0 +1,115 @@
+<!-- 
+
+Smali Oven 
+------------------
+Generate beautiful messages to inject into your APKs
+
+Author: Balzabu (https://balzabu.io)
+GitHub: https://github.com/balzabu
+Background Credits: https://www.freepik.com/free-vector/modern-polygon-technology-background_6613570.htm
+Template Credits: https://colorlib.com 
+
+-->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Smali Oven - Homepage</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- LINEARICONS -->
+	<link rel="stylesheet" href="fonts/linearicons/style.css">
+
+	<!-- MATERIAL DESIGN ICONIC FONT -->
+	<link rel="stylesheet" href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
+
+	<!-- STYLE CSS -->
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="inner">
+			<form autocomplete="off" action="smali_result.html">
+				<h3>Smali Oven</h3>
+				<div class="form-row">
+					<div class="form-wrapper">
+						<label for="">Type *</label>
+						<select required name="type_select" id="type_select" class="form-control">
+							<option selected value="empty"></option>
+							<option value="toast">Toast</option>
+							<option value="dialog">Dialog</option>
+						</select>
+						<i class="zmdi zmdi-chevron-down"></i>
+					</div>
+
+
+					<div id="div_options" name="div_options" class="form-wrapper" style="display: none;">
+						<label id="options_label" for=""></label>
+						<select required name="select_choice" id="select_choice" class="form-control">
+							<option id="options_1" name="options_1" value=""></option>
+							<option id="options_2" name="options_2" value=""></option>
+							<option id="options_3" name="options_3" value=""></option>
+							<option id="options_4" name="options_4" value=""></option>
+						</select>
+						<i class="zmdi zmdi-chevron-down"></i>
+					</div>
+				</div>
+
+
+
+
+				<div class="form-row">
+					<div class="form-wrapper">
+						<label for="">Text *</label>
+						<textarea required style="max-width:450px; padding:0 5px" class="form-control"
+							placeholder="Insert your message here" name="text" id="text" rows="1"></textarea>
+					</div>
+
+
+					<div id="div_color" class="form-wrapper" name="div_color" class="form-row" style="display: none;">
+						<label for="">Color *</label>
+						<center><input required name="hex-color" id="hex-color" type="color"></center>
+						<i class="zmdi zmdi-format-color-fill"></i>
+					</div>
+				</div>
+
+				<div id="div_dialog_title" name="div_dialog_title" class="form-row" style="display: none;">
+					<div class="form-wrapper">
+						<label for="">Dialog Title *</label>
+						<input class="form-control" name="dialog_title" placeholder="Insert the title you want to use"
+							id="dialog_title" type="text">
+					</div>
+				</div>
+
+
+				<div id="div_dialog_positive_text" name="div_dialog_positive_text" class="form-row last"
+					style="display: none;">
+					<div class="form-wrapper">
+						<label for="">Dialog Positive Text *</label>
+						<input class="form-control" name="dialog_positive_text"
+							placeholder="Insert the text you want to use as confirmation" id="dialog_positive_text"
+							type="text">
+					</div>
+				</div>
+
+				<div class="checkbox">
+					<label>
+						<input required type="checkbox"> You will pay the electricity bill (The oven is power-hungry).
+						<span class="checkmark"></span>
+					</label>
+				</div>
+				<button data-text="I'm hungry">
+					<span>Cook</span>
+				</button>
+			</form>
+		</div>
+	</div>
+
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

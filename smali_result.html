@@ -1,0 +1,64 @@
+<!-- 
+
+Smali Oven 
+------------------
+Generate beautiful messages to inject into your APKs.
+
+Author: Balzabu (https://balzabu.io)
+GitHub: https://github.com/balzabu
+Background Credits: https://www.freepik.com/free-vector/modern-polygon-technology-background_6613570.htm
+Template Credits: https://colorlib.com 
+
+-->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Smali Oven - Results</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- LINEARICONS -->
+	<link rel="stylesheet" href="fonts/linearicons/style.css">
+
+	<!-- MATERIAL DESIGN ICONIC FONT -->
+	<link rel="stylesheet" href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
+
+	<!-- STYLE CSS -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="inner">
+			<form autocomplete="off" action="smali_result.html">
+				<h3>Smali Oven</h3>
+				<div class="form-row last" >
+					<div class="form-wrapper" style="width: 100%;">
+						<label for="">Result</label>
+						<textarea readonly required style="max-width:450px; padding:0 5px; height:90%; overflow-y: scroll; white-space: pre-line;" class="form-control" name="smali_result" id="smali_result" rows="7"></textarea>
+					</div>
+				</div>
+
+				<div id="div_buttons" name="div_buttons" class="form-row last">
+					<div class="form-wrapper" style="width: 100%;">
+						<center>
+							<button type="button" data-text="Click" onclick="copy_to_clipboard()">
+								<span>Copy to clipboard</span>
+							</button>
+
+							<button type="button" data-text="Home" onclick="javascript:window.location.replace('index.html');">
+								<span>Go Back</span>
+							</button>
+						</center>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+	
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/main_results.js"></script>
+</body>
+</html>
