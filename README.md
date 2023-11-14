@@ -10,7 +10,7 @@ I'm always happy to answer questions! Here are some good places to ask them:
  - for general questions or to suggest bugfixes about Smali Oven open an Issue [here](https://github.com/Balzabu/smali-oven.github.io/issues)
 
 ### Current URL
-`https://balzabu.github.io/smali-oven/`
+[https://balzabu.github.io/smali-oven/](https://balzabu.github.io/smali-oven/)
 
 ### What's smali-oven?
 
