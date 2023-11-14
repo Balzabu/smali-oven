@@ -14,7 +14,7 @@ I'm always happy to answer questions! Here are some good places to ask them:
 
 ### What's smali-oven?
 
-It's a fully dynamic website made, hosted on GitHub Pages; it was made to help you generate the smali code for Toast Messages and Dialogs which can then be injected into any Android APK.
+It's a fully dynamic website made with HTML+jQuery, currently hosted on GitHub Pages. Made to help you generate the smali code for Toast Messages and Dialogs to inject into any android APK.
 
 ### What can I generate?
 
